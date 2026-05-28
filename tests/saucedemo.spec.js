@@ -8,12 +8,11 @@ await Login.goToLoginPage();
 // await Login.login('standard_user', 'secret_sauce');
 await Login.login();
 
-    
-//  await page.goto('https://www.saucedemo.com/');
-//  await expect(page).toHaveTitle(/Swag/);
+//await page.goto('https://www.saucedemo.com/');
+//await expect(page).toHaveTitle(/Swag/);
 
-//  await page.locator('[data-test="username"]').click();
-//  await page.locator('[data-test="username"]').fill('standard_user');
+//await page.locator('[data-test="username"]').click();
+//await page.locator('[data-test="username"]').fill('standard_user');
 //  await page.locator('[data-test="password"]').click();
 //  await page.locator('[data-test="password"]').fill('incorrect_password');
 //  await page.locator('[data-test="login-button"]').click();

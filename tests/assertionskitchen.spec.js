@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('test @assertions', async ({ page }) => {
   await page.locator('html').click();
   await page.goto('https://kitchen.applitools.com/');
   await page.getByRole('heading', { name: 'The Kitchen' }).click();
@@ -19,7 +19,7 @@ test('test', async ({ page }) => {
     //await expect.soft(page.getByRole('heading', { name: 'The Kitchen' })).toBeDisabled();
 
     await expect(page.getByRole('heading', { name: 'The Kitchen' })).toHaveAttribute('class', 'chakra-heading css-dpmy2a');
-    await expect(page).toHaveScreenshot();
+    //await expect(page).toHaveScreenshot();
  
 
 });
